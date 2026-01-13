@@ -45,8 +45,8 @@
             <div id="mobile-overlay" class="mobile-overlay"></div>
 
             <div id="logo-wrapper" class="logo-wrapper">
-                <img id="logo" class="logo" src="/assets/imgs/join-logo/capa-2.svg" alt="Das Logo von Join.">
-                <img id="logo-weiß" class="logo-weiß" src="/assets/imgs/join-logo/logo-white.svg"
+                <img id="logo" class="logo" src="assets/imgs/join-logo/capa-2.svg" alt="Das Logo von Join.">
+                <img id="logo-weiß" class="logo-weiß" src="assets/imgs/join-logo/logo-white.svg"
                     alt="Das Logo von Join.">
             </div>
 
@@ -59,18 +59,18 @@
                         <div id="input-email-container" class="input-email-container">
                             <input onblur="validateEmailInputForLogin()" id="input-email" class="input-email"
                                  placeholder="Email" autocomplete="username">
-                            <img class="input-symbol" src="/assets/imgs/symbols/mail.svg" alt="Ein Brief Symbol">
+                            <img class="input-symbol" src="assets/imgs/symbols/mail.svg" alt="Ein Brief Symbol">
                         </div>
                         <span id="email-error" class="error red-colored d-none">Please enter a valid email adress.</span>
                         <div id="input-password-container" class="input-password-container">
                             <input oninput="changeSymbols()" id="input-password" class="input-password" type="password"
                                 placeholder="Password" autocomplete="current-password">
-                            <img id="lock-symbol" class="input-symbol" src="/assets/imgs/symbols/lock.svg"
+                            <img id="lock-symbol" class="input-symbol" src="assets/imgs/symbols/lock.svg"
                                 alt="Ein Schloss Symbol">
                             <img onclick="makePasswordVisible()" id="visibility-off" class="input-symbol d-none"
-                                src="/assets/imgs/symbols/visibility_off.svg" alt="durchgestrichenes Auge Symbol">
+                                src="assets/imgs/symbols/visibility_off.svg" alt="durchgestrichenes Auge Symbol">
                             <img onclick="hidePassword()" id="visibility-on" class="input-symbol d-none"
-                                src="/assets/imgs/symbols/visibility.svg" alt="offenes Auge Symbol">
+                                src="assets/imgs/symbols/visibility.svg" alt="offenes Auge Symbol">
                         </div>
                         <span id="error-email-password-text" class="error d-none red-colored">Check your
                             email and
@@ -87,7 +87,7 @@
             </div>
             <div id="sign-up-container" class="sign-up-container d-none">
                 <div class="sign-up-header">
-                    <img onclick="backtoLogIn()" class="arrow-left" src="/assets/icons/arrow-left-vector.svg"
+                    <img onclick="backtoLogIn()" class="arrow-left" src="assets/icons/arrow-left-vector.svg"
                         alt="Ein Pfeil nach links">
                     <div class="sign-up-header-container">
 
@@ -103,7 +103,7 @@
                         <div id="input-sign-up-name-container" class="input-sign-up-name-container">
                             <input oninput="validateNameNumberForSignUp()" onblur="validateNameLengthForSignUp()" id="input-sign-up-name" class="input-sign-up-name"
                                 type="text" placeholder="Name">
-                            <img class="input-symbol" src="/assets/imgs/symbols/person.svg" alt="Ein Personen Symbol">
+                            <img class="input-symbol" src="assets/imgs/symbols/person.svg" alt="Ein Personen Symbol">
                         </div>
                         <span id="error-text-username" class="error red-colored d-none">Please enter a
                             valid Username</span>
@@ -114,20 +114,20 @@
                             <input id="input-sign-up-email" class="input-sign-up-email"
                                 oninput="checkEmailExistsOnInput()" onblur="validateEmailInputForLogin()"
                                 autocomplete="username" placeholder="Email">
-                            <img class="input-symbol" src="/assets/imgs/symbols/mail.svg" alt="Ein Brief Symbol">
+                            <img class="input-symbol" src="assets/imgs/symbols/mail.svg" alt="Ein Brief Symbol">
                         </div>
                         <span id="email-error-singup" class="error red-colored d-none">Please enter a valid email adress.</span>
                         <div id="input-sign-up-password-container" class="input-sign-up-password-container">
                             <input id="input-sign-up-password" class="input-sign-up-password" type="password"
                                 placeholder="Password" autocomplete="current-password">
-                            <img class="input-symbol" src="/assets/imgs/symbols/lock.svg" alt="Ein Schloss Symbol">
+                            <img class="input-symbol" src="assets/imgs/symbols/lock.svg" alt="Ein Schloss Symbol">
                         </div>
                         <div id="input-sign-up-confirm-password-container"
                             class="input-sign-up-confirm-password-container">
                             <input id="input-sign-up-confirm-password" class="input-sign-up-confirm-password"
                                  type="password" autocomplete="new-password"
                                 placeholder="Confirm Password">
-                            <img class="input-symbol" src="/assets/imgs/symbols/lock.svg" alt="Ein Schloss Symbol">
+                            <img class="input-symbol" src="assets/imgs/symbols/lock.svg" alt="Ein Schloss Symbol">
                         </div>
                         <span id="error-text-password-match"
                             class="error red-colored d-none">
@@ -146,10 +146,10 @@
                             <label for="sign-up-checkbox">
                                 <input type="checkbox" name="checkbox" id="sign-up-checkbox" class="sign-up-checkbox">
                                 <img id="custom-checkbox" class="custom-checkbox"
-                                    src="/assets/imgs/symbols/unchecked-checkbox.svg" alt="leere checkbox"
+                                    src="assets/imgs/symbols/unchecked-checkbox.svg" alt="leere checkbox"
                                     onclick="enableSignUpButton()">
                                 <img id="custom-checked-checkbox" class="custom-checked-checkbox d-none"
-                                    src="/assets/imgs/symbols/checked-checkbox.svg" alt="gehakte Checkbox"
+                                    src="assets/imgs/symbols/checked-checkbox.svg" alt="gehakte Checkbox"
                                     onclick="disableSignUpButton()">
                             </label>
                             I accept the <a class="link-to-privacy-policy" href="/html/privacy-policy.html">Privacy
